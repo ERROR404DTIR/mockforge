@@ -1,0 +1,21 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/api/items/{id}",
+      "status": 200,
+      "body": {
+        "id": "{{id}}",
+        "active": true
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/api/echo",
+      "status": 201,
+      "body": {
+        "received": "{{body}}"
+      }
+    }
+  ]
+}
